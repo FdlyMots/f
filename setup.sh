@@ -178,6 +178,13 @@ sleep 2
 clear
 wget -q -O slow.sh "${anu}slow.sh" && chmod +x slow.sh && ./slow.sh
 clear
+echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "$green      Install NOOBZ VPNS             $NC"
+echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+sleep 2
+wget https://raw.githubusercontent.com/FdlyMots/f/master/noob.sh
+chmod +x * && ./noob.sh && rm -rf noob.sh
+clear
 cat> /root/.profile << END
 if [ "$BASH" ]; then
 if [ -f ~/.bashrc ]; then
