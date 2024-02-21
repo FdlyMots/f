@@ -7,7 +7,8 @@ wget -q ${anu}menu.zip
 unzip menu.zip
 chmod +x menu/*
 mv menu/* /usr/local/sbin/
-rm -rf /root/*
+cd
+rm -rf menu menu.zip anu
 }
 
 clear
